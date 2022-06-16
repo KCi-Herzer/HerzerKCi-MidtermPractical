@@ -1,13 +1,16 @@
 #pragma once
-#include <string>
-#include <vector>
+#include "Question.h"
 
 class QuestionFactory
 {
 public:
-	QuestionFactory();
+	QuestionFactory(); //Currently capable of handling 4 questions
 	~QuestionFactory();
-	void GenerateQuestion();
+	void GenerateQuestion(int quest);
+
+	Question** questions;
+
+	int numOfQuestions;
 
 };
 
