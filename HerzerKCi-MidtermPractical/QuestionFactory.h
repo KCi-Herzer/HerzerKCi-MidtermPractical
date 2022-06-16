@@ -8,7 +8,7 @@ public:
 	~QuestionFactory();
 	void GenerateEasyQuestions();
 
-	Question** questions = nullptr;
+	Question** questions;
 
 
 private:
