@@ -7,9 +7,8 @@ class Question
 public:
 	Question(std::string _question, std::vector <std::string> _answers, int _correctAnswer);
 	
-	std::string GetQuestion();
-	std::vector <std::string> GetPossibleAnswers();
 	int GetAnswer();
+	void PrintQuestion();
 
 private:
 	std::string question;
