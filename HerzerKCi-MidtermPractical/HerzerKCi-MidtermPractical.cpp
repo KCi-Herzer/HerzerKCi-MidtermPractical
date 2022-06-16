@@ -5,7 +5,6 @@ void AskQuestion(QuestionFactory _factory);
 int ReadIntiger();
 void ClearInputBuffer();
 
-
 int main()
 {
 #pragma region Initializations
@@ -20,7 +19,7 @@ int main()
     while (true)
     {
         choice = 0;
-        std::cout << "\n1) Easy\n2) Exit\nPick a Difficulty: ";
+        std::cout << "\n1) Answer a Riddle\n2) Exit\nPick an Option: ";
         choice = ReadIntiger();
         switch (choice)
         {
@@ -39,8 +38,6 @@ int main()
             break;
         }
     }
-
-    
 #pragma endregion
     
 }

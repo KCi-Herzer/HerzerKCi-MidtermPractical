@@ -9,7 +9,7 @@ public:
 	void GenerateEasyQuestions();
 
 	Question** questions;
-
+	
 
 private:
 /// <Refrences>

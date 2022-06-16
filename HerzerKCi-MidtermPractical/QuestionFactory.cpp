@@ -7,7 +7,10 @@ QuestionFactory::QuestionFactory()
 
 QuestionFactory::~QuestionFactory()
 {
-
+	//delete[] questions;
+	//For some reason these pointers already get deleted.
+	//I think it's because the Factory is a local variable in main?
+	//Not to sure though.
 }
 
 void QuestionFactory::GenerateEasyQuestions()
@@ -18,6 +21,4 @@ void QuestionFactory::GenerateEasyQuestions()
 		
 	}
 }
-
-
 
