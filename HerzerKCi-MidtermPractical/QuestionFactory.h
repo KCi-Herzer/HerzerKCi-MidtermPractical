@@ -22,10 +22,10 @@ private:
 /// <param name="quest"></param>
 	std::vector <std::string> easyQuestions =
 	{
-		"The more you code, the more of me there is. I may be gone for now but you can稚 get rid of me forever. What am I?",
-		"I知 a language for everything yet I have no real identity of my own. Good luck trying to compile me. What am I?",
-		"As a developer I知 your eyes, showing you the result of your code in your language of choice. What am I?",
-		"I知 fundamental and used to build larger structures. While you値l find many different kinds of me, we all just mess with information in different ways. What am I?"
+		"The more you code, the more of me there is. I may be gone for now but you can't get rid of me forever. What am I?",
+		"I'm a language for everything yet I have no real identity of my own. Good luck trying to compile me. What am I?",
+		"As a developer I'm your eyes, showing you the result of your code in your language of choice. What am I?",
+		"I'm fundamental and used to build larger structures. While you'll find many different kinds of me, we all just mess with information in different ways. What am I?"
 	};
 	std::vector <std::vector<std::string>> easyAnswerPossiblilitys =
 	{
@@ -34,6 +34,6 @@ private:
 		{"1) Siri", "2) A print statement", "3) Visual Studio", "4) The Windows task manager"},
 		{"1) Cementing Paste", "2) A Lego brick", "3) A data structure", "4) Math"}
 	};
-	std::vector <int> easyAnswers = { 2, 3, 1, 2 };
+	std::vector <int> easyAnswers = { 3, 4, 2, 3 };
 };
 

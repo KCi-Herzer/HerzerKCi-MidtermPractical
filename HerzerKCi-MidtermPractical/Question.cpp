@@ -15,7 +15,7 @@ int Question::GetAnswer()
 
 void Question::PrintQuestion()
 {
-	std::cout << question << '\n';
+	std::cout << '\n' << question << '\n';
 	for (int i = 0; i < answers.size(); i++)
 	{
 		std::cout << answers[i] << '\n';
