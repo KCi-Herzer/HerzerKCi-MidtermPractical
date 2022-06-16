@@ -2,40 +2,21 @@
 
 QuestionFactory::QuestionFactory()
 {
-	for (int i = 0; i < 4; i++)
-	{
-		GenerateQuestion(i);
-	}
+	
 }
 
 QuestionFactory::~QuestionFactory()
 {
-	delete[] questions;
+
 }
 
-
-
-void QuestionFactory::GenerateQuestion(int quest)
+void QuestionFactory::GenerateEasyQuestions()
 {
-	switch (quest)
+	for (unsigned int i = 0; i < easyQuestions.size(); i++)
 	{
-	case 0: 
-	{
-		//Create new question
-	}
-	case 1:
-	{
-		//Create new question
-	}
-	case 2:
-	{
-		//Create new question
-	}
-	case 3:
-	{
-		//Create new question
-	}
-	default:
-		break;
+		questions[i] = new Question(easyQuestions[i], easyAnswerPossiblilitys[i], easyAnswers[i]);
 	}
 }
+
+
+
